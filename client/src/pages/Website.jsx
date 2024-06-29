@@ -18,6 +18,8 @@ const Website = () => {
     </div>
     <Companies />
     <Residencies/>
+    <Footer/>
+    <Header/>
     <Value/>
     <Contact/>
     <GetStarted/>
