@@ -16,7 +16,7 @@ export const createUser = asyncHandler(async (req, res) => {
   } else res.status(201).send({ message: "User already registered" });
 });
 
-// function to book a visit to resd
+
 export const bookVisit = asyncHandler(async (req, res) => {
   const { email, date } = req.body;
   const { id } = req.params;
@@ -45,7 +45,7 @@ export const bookVisit = asyncHandler(async (req, res) => {
   }
 });
 
-// funtion to get all bookings of a user
+
 export const getAllBookings = asyncHandler(async (req, res) => {
   const { email } = req.body;
   try {
@@ -89,7 +89,6 @@ export const cancelBooking = asyncHandler(async (req, res) => {
   }
 });
 
-// function to add a resd in favourite list of a user
 export const toFav = asyncHandler(async (req, res) => {
   const { email } = req.body;
   const { rid } = req.params;
@@ -126,7 +125,6 @@ export const toFav = asyncHandler(async (req, res) => {
   }
 });
 
-// function to get all favorites
 export const getAllFavorites = asyncHandler(async (req, res) => {
   const { email } = req.body;
   try {
