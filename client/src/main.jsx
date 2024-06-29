@@ -7,10 +7,10 @@ import { Auth0Provider } from "@auth0/auth0-react";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Auth0Provider
-     domain="dev-03ifqltxbr6nn0hn.us.auth0.com"
-     clientId="RXlGXkr49Ev5MHpvAC6vKkZ4bVn11iwl"
+     domain="dev-nb7onvcu6fo3l6nc.us.auth0.com"
+     clientId="9KZ9N5S0fGETRpL5kribaFiKhGmpEjj8"
      authorizationParams={{
-      redirect_uri: "https://full-stack-real-estate-youtube-sooty.vercel.app"
+      redirect_uri: "https://elite-estate-frontend.vercel.app/"
      }}
      audience="http://localhost:8000"
      scope="openid profile email"
